@@ -1,0 +1,32 @@
+{
+  "type": "IfcSite",
+  "globalId": "7b7032cc-b822-417b-9aea-642906a29bd7",
+  "name": "Default",
+  "compositionType": "ELEMENT",
+  "refLatitude": [
+    41,
+    52,
+    27,
+    840000
+  ],
+  "refLongitude": [
+    -87,
+    -38,
+    -21,
+    -839999
+  ],
+  "isDecomposedBy": [
+    [
+      {
+        "type": "IfcBuilding",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-642906a29bd4.json"
+      }
+    ]
+  ],
+  "decomposes": [
+    {
+      "type": "IfcProject",
+      "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-642906a29bd5.json"
+    }
+  ]
+}

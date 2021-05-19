@@ -1,0 +1,274 @@
+{
+  "type": "IfcBuildingStorey",
+  "globalId": "7b7032cc-b822-417b-9aea-6429f95d6512",
+  "name": "Level 1",
+  "compositionType": "ELEMENT",
+  "isDecomposedBy": [
+    [
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067be1d42.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067be1d7f.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067be1d78.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067be1d75.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067bfe323.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067bfe0dc.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067bfe0d9.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/0b74b3fa-1a92-405e-9ac9-d59067bfe0da.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/40c2d70d-8d3b-49a9-9702-6756a4ee40fd.json"
+      },
+      {
+        "type": "IfcSpace",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/40c2d70d-8d3b-49a9-9702-6756a4ee4132.json"
+      }
+    ]
+  ],
+  "decomposes": [
+    {
+      "type": "IfcBuilding",
+      "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-642906a29bd4.json"
+    }
+  ],
+  "containsElements": [
+    [
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7df1.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7d12.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7d42.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7af9.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7be7.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d7938.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d795d.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d46ec.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d46d1.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d471d.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d44b8.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d441c.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d410f.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d49bd.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d574f.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/9808fd7f-dc48-478e-9217-628e833d5239.json"
+      },
+      {
+        "type": "IfcWindow",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb1c2.json"
+      },
+      {
+        "type": "IfcWindow",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb2de.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb41a.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb448.json"
+      },
+      {
+        "type": "IfcWindow",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb57b.json"
+      },
+      {
+        "type": "IfcWindow",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdb6d5.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdc223.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/6b61ce71-1a7a-473c-8f87-4262e0bdc24f.json"
+      },
+      {
+        "type": "IfcStair",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/3ab8ee1d-07ad-41b9-8f24-a55884e7e601.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7ef5.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7ca4.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7b5b.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7b78.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7a99.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/982f59b0-f2e1-485f-8ce1-c9f6117b7a31.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7606d7eb-508f-40ce-a522-9b526ddc7201.json"
+      },
+      {
+        "type": "IfcDoor",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7606d7eb-508f-40ce-a522-9b526ddc728b.json"
+      },
+      {
+        "type": "IfcCovering",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/e586c31c-dfb6-463e-aee7-a2dffc985748.json"
+      },
+      {
+        "type": "IfcCovering",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/e586c31c-dfb6-463e-aee7-a2dffc985003.json"
+      },
+      {
+        "type": "IfcCovering",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/e586c31c-dfb6-463e-aee7-a2dffc98500b.json"
+      },
+      {
+        "type": "IfcCovering",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/e586c31c-dfb6-463e-aee7-a2dffc98501e.json"
+      },
+      {
+        "type": "IfcCovering",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/e586c31c-dfb6-463e-aee7-a2dffc985031.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/2c391822-07f8-4a22-86a8-a1e57412d8c1.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/2c391822-07f8-4a22-86a8-a1e57412df9e.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/2c391822-07f8-4a22-86a8-a1e57412dcef.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/2c391822-07f8-4a22-86a8-a1e57412d365.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/2c391822-07f8-4a22-86a8-a1e57412d386.json"
+      },
+      {
+        "type": "IfcStair",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/81be7c96-ce56-447e-9d93-021422f83127.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/64b7f7d3-8cfc-4277-ba33-8de2e6533a28.json"
+      },
+      {
+        "type": "IfcWallStandardCase",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/64b7f7d3-8cfc-4277-ba33-8de2e6533ae9.json"
+      },
+      {
+        "type": "IfcBeam",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8.json"
+      },
+      {
+        "type": "IfcBeam",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/98d604b7-4c6f-4ae8-b5f3-0187bb53f220.json"
+      },
+      {
+        "type": "IfcBeam",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/98d604b7-4c6f-4ae8-b5f3-0187bb53f379.json"
+      },
+      {
+        "type": "IfcBeam",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/98d604b7-4c6f-4ae8-b5f3-0187bb53f378.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/4c8d2570-3244-4e75-8237-a4372a40e82b.json"
+      },
+      {
+        "type": "IfcSlab",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/4c8d2570-3244-4e75-8237-a4372a40e878.json"
+      }
+    ]
+  ],
+  "category Code": "Floor",
+  "line Weight": 1,
+  "line Pattern": "Centre",
+  "symbol": "M_Level Head - Circle",
+  "symbol at End 2 Default": true,
+  "automatic Room Computation Height": true
+}

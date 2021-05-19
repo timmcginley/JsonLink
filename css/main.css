@@ -1,0 +1,26 @@
+.main
+{
+	border: solid 1px #000;
+	width:40%;
+	padding:5px;
+	margin:2px;
+	margin-top:50px;
+}
+
+
+.decomposes
+{
+	border: solid 1px #000;
+	width:95%;
+	padding:5px;
+	margin:2px;
+}
+
+.decombox
+{
+	border: solid 2px #000;
+	width:95%;
+	background-color:#eee;
+	padding:5px;
+	margin:2px;
+}

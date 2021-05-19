@@ -1,0 +1,48 @@
+{
+  "type": "IfcBuilding",
+  "globalId": "7b7032cc-b822-417b-9aea-642906a29bd4",
+  "compositionType": "ELEMENT",
+  "buildingAddress": {
+    "type": "IfcPostalAddress",
+    "addressLines": [
+      "Enter address here"
+    ],
+    "town": "Chicago",
+    "country": "IL"
+  },
+  "isDecomposedBy": [
+    [
+      {
+        "type": "IfcBuildingStorey",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-6429f95d6512.json"
+      },
+      {
+        "type": "IfcBuildingStorey",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-6429f95d6693.json"
+      },
+      {
+        "type": "IfcBuildingStorey",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-6429f95f6ab3.json"
+      },
+      {
+        "type": "IfcBuildingStorey",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-6429f95f770e.json"
+      }
+    ]
+  ],
+  "decomposes": [
+    {
+      "type": "IfcSite",
+      "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-642906a29bd7.json"
+    }
+  ],
+  "project Issue Date": "Issue Date",
+  "project Status": "Project Status",
+  "client Name": "Owner",
+  "project Address": "Enter address here",
+  "project Name": "Duplex Apartment",
+  "project Number": "0001",
+  "category Description": "Duplex",
+  "category Code": "11-16 21 11",
+  "numberOfStoreys": 4
+}

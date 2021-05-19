@@ -1,0 +1,79 @@
+{
+  "type": "IfcProject",
+  "globalId": "7b7032cc-b822-417b-9aea-642906a29bd5",
+  "name": "0001",
+  "longName": "Duplex Apartment",
+  "phase": "Project Status",
+  "unitsInContext": {
+    "type": "IfcUnitAssignment",
+    "units": [
+      {
+        "type": "IfcSIUnit",
+        "unitType": "LENGTHUNIT",
+        "name": "METRE",
+        "dimensions": {
+          "type": "IfcDimensionalExponents",
+          "LengthExponent": 1
+        }
+      },
+      {
+        "type": "IfcSIUnit",
+        "unitType": "AREAUNIT",
+        "name": "SQUARE_METRE",
+        "dimensions": {
+          "type": "IfcDimensionalExponents",
+          "LengthExponent": 2
+        }
+      },
+      {
+        "type": "IfcSIUnit",
+        "unitType": "VOLUMEUNIT",
+        "name": "CUBIC_METRE",
+        "dimensions": {
+          "type": "IfcDimensionalExponents",
+          "LengthExponent": 3
+        }
+      },
+      {
+        "type": "IfcConversionBasedUnit",
+        "dimensions": {
+          "type": "IfcDimensionalExponents"
+        },
+        "unitType": "PLANEANGLEUNIT",
+        "name": "DEGREE",
+        "conversionFactor": {
+          "type": "IfcMeasureWithUnit",
+          "valueComponent": {
+            "type": "IfcRatioMeasure",
+            "value": 0.01745329251994328
+          },
+          "unitComponent": {
+            "type": "IfcSIUnit",
+            "unitType": "PLANEANGLEUNIT",
+            "name": "RADIAN",
+            "dimensions": {
+              "type": "IfcDimensionalExponents"
+            }
+          }
+        }
+      },
+      {
+        "type": "IfcSIUnit",
+        "unitType": "TIMEUNIT",
+        "name": "SECOND",
+        "dimensions": {
+          "type": "IfcDimensionalExponents",
+          "TimeExponent": 1
+        }
+      }
+    ]
+  },
+  "isDecomposedBy": [
+    [
+      {
+        "type": "IfcSite",
+        "ref": "http://www.bim-tools.org/Duplex_A_20110907_optimized/7b7032cc-b822-417b-9aea-642906a29bd7.json"
+      }
+    ]
+  ]
+}
