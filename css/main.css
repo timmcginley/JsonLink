@@ -3,24 +3,36 @@
 	border: solid 1px #000;
 	width:40%;
 	padding:5px;
-	margin:2px;
+	margin: auto;
 	margin-top:50px;
+}
+
+.keybox
+{
+	border: solid 1px #000;
+	background-color:#ffa;
+	width:93%;
+	margin:2%;
+	padding:1%;
+
+	margin-top:2%;
 }
 
 .decomposes
 {
 	border: solid 1px #000;
-	width:95%;
-	padding:5px;
-	margin:2px;
+	width:93%;
+	margin:2%;
+	padding:1%;
+
 	/*float:left;*/
 }
 
 .decombox
 {
 	border: solid 2px #000;
-	width:95%;
+	width:93%;
+	margin:2%;
+	padding:1%;
 	background-color:#eee;
-	padding:5px;
-	margin:2px;
 }

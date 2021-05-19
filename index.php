@@ -8,7 +8,7 @@
 </head>
 
 <body>
-	<center>
+
 	<code>
 	
 	<?php 
@@ -26,39 +26,49 @@
 	$data = json_decode($content);
 	// build a main div to house the data
 	?><div class='main'><br><?php 
-	// get the parent data of the current element
-	// not sure if this needs a loop - could we have more than one decompose?
-	// if so would that change the structure of the array, so this wouldn't work anyway?
-	?><div style='float:none'><?php
-	foreach ($data->decomposes as $decomposes)
-	{
-		echo "<div class='decomposes'>";
-		$url = $decomposes->ref;
-		$id = preg_split("#/#", $url); 
-		echo '<< ';
-		// onclick send the fileid to the url...
-		echo "<a href='?id=".$id[4]."'>".$decomposes->type.'</a><br>';
-		echo '</div>';
-	}
-	echo '</div>';
-	// get the data for the current element
-	echo "<br><div style ='font-size:30px'>".$data->type.': '.$data->name.'</div>';
-	echo '<br>'.$data->globalId.'<br><br>';
-	
-	// get the child data of the current element
-	foreach ($data->isDecomposedBy[0] as $decomp)
-	{
-		echo "<div class='decombox'>";
-		$url = $decomp->ref;
-		// split the ref to get the filename
-		$id = preg_split("#/#", $url); 
-		echo '>> ';
-		// onclick send the filename to the url...
-		echo "<a href='?id=".$id[4]."'>".$decomp->type.'</a>';
-		echo '<br></div>';
-	}
+		// get the parent data of the current element
+		// not sure if this needs a loop - could we have more than one decompose?
+		// if so would that change the structure of the array, so this wouldn't work anyway?
+		
+		foreach ($data->decomposes as $decomposes)
+		{
+			echo "<div class='decomposes'>";
+			$url = $decomposes->ref;
+			$id = preg_split("#/#", $url); 
+			echo '<< ';
+			// onclick send the fileid to the url...
+			echo "<a href='?id=".$id[4]."'>".$decomposes->type.'</a><br>';
+			echo '</div>';
+		}
 
-	?><br></div>
+		// get the data for the current element
+		echo "<br><div style ='font-size:30px'>".$data->type.': '.$data->name.'</div>';
+		echo '<br>'.$data->globalId.'<br><br>';
+		
+		// get the child data of the current element
+		foreach ($data->isDecomposedBy[0] as $decomp)
+		{
+			echo "<div class='decombox'>";
+			$url = $decomp->ref;
+			// split the ref to get the filename
+			$id = preg_split("#/#", $url); 
+			echo '>> ';
+			// onclick send the filename to the url...
+			echo "<a href='?id=".$id[4]."'>".$decomp->type.'</a>';
+			echo '<br></div>';
+		}
+		
+		?><h2>Properties</h2>
+		<div class ='keybox'><?php
+			
+			foreach($data as $key => $val) {
+				if ($key) { echo $key.':'; };
+				if ($val) { echo $val; };
+				echo '<br>';
+			}					
+		?></div>
+	<br>
+	</div>
 	<?php 
 	// add an escape route at the bottom in case it all goes crazy
 	echo "<br>Return to <a href='?id=".$ifcProject."'>IfcProject</a>";
@@ -67,6 +77,5 @@
 	
 	?>
 	</code>
-	</center>
 </body>
 </html>
