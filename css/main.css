@@ -7,13 +7,13 @@
 	margin-top:50px;
 }
 
-
 .decomposes
 {
 	border: solid 1px #000;
 	width:95%;
 	padding:5px;
 	margin:2px;
+	/*float:left;*/
 }
 
 .decombox
