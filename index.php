@@ -25,7 +25,10 @@
 	// decode the content
 	$data = json_decode($content);
 	// build a main div to house the data
-	?><div class='main'><br><?php 
+	
+	?>
+	
+	<div class='main'><br><?php 
 		// get the parent data of the current element
 		// not sure if this needs a loop - could we have more than one decompose?
 		// if so would that change the structure of the array, so this wouldn't work anyway?
@@ -42,10 +45,12 @@
 		}
 
 		// get the data for the current element
-		echo "<br><div style ='font-size:30px'>".$data->type.': '.$data->name.'</div>';
-		echo '<br>'.$data->globalId.'<br><br>';
+		echo "<h1>".$data->type.': '.$data->name.'</h1>';
+		echo "<div class='viewer'></div>";
+		echo "<div class='viewbase'>".$data->globalId."</div>";
 		
 		// get the child data of the current element
+		echo '<h2>IsDecomposedBy</h2>';
 		foreach ($data->isDecomposedBy[0] as $decomp)
 		{
 			echo "<div class='decombox'>";
@@ -58,17 +63,17 @@
 			echo '<br></div>';
 		}
 		
-		?><h2>Properties</h2>
-		<div class ='keybox'><?php
+		?><h2>Properties</h2><?php
 			
 			foreach($data as $key => $val) {
+				echo "<div class ='keybox'>"; 
 				if ($key) { echo $key.':'; };
 				if ($val) { echo $val; };
-				echo '<br>';
+				echo '</div>';
 			}					
-		?></div>
+		?>
 	<br>
-	</div>
+	
 	<?php 
 	// add an escape route at the bottom in case it all goes crazy
 	echo "<br>Return to <a href='?id=".$ifcProject."'>IfcProject</a>";
@@ -76,6 +81,7 @@
 	echo "<br><br>Based on a linked ifc JSON experiment by <a href='https://github.com/janbrouwer'>Jan Brouwer.</a>";
 	
 	?>
+	</div>
 	</code>
 </body>
 </html>
